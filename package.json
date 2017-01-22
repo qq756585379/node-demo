@@ -1,0 +1,21 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "1. 命令行创建npm的配置文件\r   a. npm init\r 2. 添加一个gulp的依赖\r   npm install gulp --save-dev\r 3. 在项目根目录下添加一个gulpfile.js文件，这个是gulp的主文件，这个文件名是固定的\r 4. 在gulpfile中抽象我们需要做的任务",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-less": "^3.3.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}
